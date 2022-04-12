@@ -1,11 +1,12 @@
-console.log($)
-$(document).ready(function() {
-    $('p').click(function(){ //element selector
-        console.log("you clicked on p",this)
+$(document).ready(function(){ 
+    $('p').dblclick(function(){
+        console.log("you doubled clicked on p",this);
     });
-    //$('#second').click(); //id selector
-    //$('.Test').click();   //class selector
-    $('*').click();// select all elements
-    $('p.Test').click();// specific character
-    $('p:first').click(); // select first paragraph
+    $('p').mouseenter(function(){ 
+        console.log("you entered ",this);
+    });
+    $('#btn1').click(function(){
+        $('p').hide();
+    })
+
 });
