@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src ="day2.js"></script>
 </head>
 <body>
     <p id="second">welcome to jquery</p>
@@ -13,16 +14,6 @@
     <p class="Test">welcome to jquery 2</p>
     <p>welcome to jquery 3</p>
     <p>welcome to jquery 4</p>
-    <script>
-        $(document).ready(function() {
-            $('p').click(function(){ //element selector
-                console.log("you clicked on p",this)
-            });
-            $('#second').click(); //id selector
-            $('.Test').click();   //class selector
-        });
-    </script>
-    
 </body>
 <script>console.log($)</script>
 </html> 
