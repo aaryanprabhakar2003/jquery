@@ -1,0 +1,11 @@
+#btn1,#btn2{
+    width:100px;
+    height: 40px;
+    margin: 1%;
+    background-color: white;
+    border-radius:5px;
+    border-width: 2px;
+    border-style:solid;
+    cursor: pointer;
+    border-color: black;
+}
