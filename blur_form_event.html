@@ -16,14 +16,17 @@
 $(document).ready(function(){
     $("input").blur(function(){
         $(this).next("span").show().fadeOut("slow");
-    }); });
+    }); 
+    });
 </script>
 </head>
-<body>    <form>
+<body>    
+    <form>
         <label>Email: <input type="text"> <span>blur fire</span></label>
         <label>Password: <input type="password"> <span>blur fire</span></label>
         <label><input type="submit" value="Sign In"> <span>blur fire</span></label>
     </form>
-    <p><strong>Note:</strong> Click away from the form control or press the "Tab" key to remove focus.</p>
+    <p>
+        <strong>Note:</strong> Click away from the form control or press the "Tab" key to remove focus.</p>
 </body>
 </html>
